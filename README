@@ -1,0 +1,14 @@
+Author: Michael Vierling
+
+Excution: python3 [host] [port]
+
+This program is a password hacker that was completed over the course of
+https://hyperskill.org/projects/80?track=2.
+
+The "password hacker" program sends a JSON object containing a login and password to the server.
+First, the program tests logins from logins.txt until the error returned is the one for an incomplete password.
+Once the login is found the program will then check for the first character of the password a -> Z, 0 -> 9.
+Based on the situation given to us, to see if the character added is correct we check the difference in time between
+when the message was sent and received.
+
+Personal Note: First GitHub upload
