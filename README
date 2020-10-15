@@ -1,6 +1,6 @@
 Author: Michael Vierling
 
-Excution: python3 [host] [port]
+Execution: python3 hack.py [host] [port]
 
 This program is a password hacker that was completed over the course of
 https://hyperskill.org/projects/80?track=2.
